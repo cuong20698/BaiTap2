@@ -52,6 +52,8 @@
                 </td>
                 <td>
                     <asp:DropDownList ID="ddlGender" runat="server">
+                        <asp:ListItem Value="True">Nam</asp:ListItem>
+                        <asp:ListItem Value="False">Nữ</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -76,7 +78,7 @@
                     <asp:Label ID="Label7" runat="server" Text="Password:"></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -84,12 +86,17 @@
                     <asp:Label ID="Label8" runat="server" Text="Confirm password:"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtConfPass" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtConfPass" runat="server" TextMode="Password"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <asp:Button ID="btnDangKy" runat="server" Text="Đăng ký" />
+                    <asp:Label ID="lblThognBao" runat="server" style="color:red"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <asp:Button ID="btnDangKy" runat="server" Text="Đăng ký" OnClick="btnDangKy_Click1"/>
                 </td>
             </tr>
         </table>

@@ -28,7 +28,8 @@ namespace DangKyThanhVien
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string sql = @"INSERT INTO UserInfo VALUES(@usn, @pass, @fname, @lname, @email, @gender, @address)";
+                string sql = @"INSERT INTO UserInfo VALUES(@usn, @pass, @fname, 
+                                @lname, @email, @gender, @address)";
                 SqlCommand command = new SqlCommand(sql, connection);
                 command.Parameters.AddWithValue("@usn", user.UserName);
                 command.Parameters.AddWithValue("@pass", user.PassWord);
