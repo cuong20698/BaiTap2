@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\bin\DangKyThanhVien.dll.config
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\bin\DangKyThanhVien.dll
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\bin\DangKyThanhVien.pdb
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\obj\Debug\DangKyThanhVien.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\obj\Debug\DangKyThanhVien.dll
+C:\Users\Admin\Desktop\cuong39\BaiTap2\DangKyThanhVien\DangKyThanhVien\obj\Debug\DangKyThanhVien.pdb
